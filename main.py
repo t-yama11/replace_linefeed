@@ -3,7 +3,7 @@ def replace_enter(tar_str, char_before_rep, char_after_rep):
     if not (isinstance(tar_str, str) and \
             isinstance(char_before_rep, str) and \
             isinstance(char_after_rep, str)):
-        return 
+        return ''
     
     return tar_str.replace(char_before_rep, char_after_rep)
 
